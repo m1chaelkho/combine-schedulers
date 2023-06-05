@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author         = "Point-Free"
   spec.platform       = :ios, "13.0"
   spec.swift_versions = ['5.5']
-  spec.source         = { :git => "https://github.com/adimobile/combine-schedulers.git", :tag => "#{spec.version}" }
+  spec.source         = { :git => "https://github.com/m1chaelkho/combine-schedulers.git", :tag => "#{spec.version}" }
   spec.source_files   = "Sources/**/*.swift"
   spec.dependency "XCTestDynamicOverlay"
 end
